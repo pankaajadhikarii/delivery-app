@@ -1,3 +1,5 @@
+import 'package:user_repository/src/model/models.dart';
+
 abstract class UserRepository {
   Stream<MyUser?> get user;
 
